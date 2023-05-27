@@ -3,6 +3,8 @@
     --mein-text-color: #FFFFFF;
     --second-text-color: #404BBF;
     --contacts-color: #434455;
+    --blue-logo-color: #4d5ae5;
+    --blue-text-color: #F4F4FD;
 }
 
 
@@ -31,7 +33,7 @@ body {
 }
 
 .header-logo span {
-    color: #4D5AE5;
+    color: var(--blue-logo-color);
 }
 
 .header-menu-link {
@@ -125,7 +127,7 @@ body {
 
 /* -----------------TEAM------------------ */
 .team {
-    background: #F4F4FD;
+    background: var(--blue-text-color);
 }
 
 .team-title {
@@ -155,7 +157,7 @@ body {
 /* ----------FOOTER----------- */
 
 .footer {
-    background: #2E2F42;
+    background: var(--title-color);
 }
 
 .footer-logo {
@@ -169,12 +171,50 @@ body {
 }
 
 .footer-logo span {
-    color: #4D5AE5;
+    color: var(--blue-logo-color);
 }
 
 .footer-text {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #F4F4FD;
+    color: var(--blue-text-color);
+}
+
+/* ----------------------MENU----------------- */
+
+.menu-btn {
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+    background: var(--blue-text-color);
+    color: var(--blue-logo-color);
+}
+
+.menu-btn:hover,
+.menu-btn:focus {
+    color: #FFFFFF;
+    background: #404BBF;
+}
+
+
+/* ------------------APPLICATIONS--------------- */
+
+.applications-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--title-color);
+
+}
+
+.applications-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--contacts-color);
 }
