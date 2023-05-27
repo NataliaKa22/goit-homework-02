@@ -41,6 +41,10 @@ body {
     color: var(--title-color);
 }
 
+.header-span {
+    color: #FFFFFF;
+}
+
 .header-menu-link {
     font-weight: 500;
     font-size: 16px;
@@ -52,6 +56,10 @@ body {
 .header-menu-link:hover,
 .header-menu-link:focus {
     color: var(--second-text-color);
+}
+
+.header-address {
+    font-style: normal;
 }
 
 .header-address-menu-link {
@@ -71,8 +79,6 @@ body {
 /* ------------HERO----------- */
 
 .hero {
-    width: 1440px;
-    height: 600px;
     background: var(--title-color);
 }
 
@@ -98,7 +104,7 @@ body {
 
 .hero-btn:hover,
 .hero-btn:focus {
-    color: #404BBF;
+    background-color: #404BBF;
 }
 
 /* -------------CRITERIA----------- */
@@ -159,6 +165,10 @@ body {
     color: var(--title-color);
 }
 
+.team-list {
+    background-color: #FFFFFF;
+}
+
 .team-item-text {
     font-size: 16px;
     line-height: 24px;
@@ -185,7 +195,7 @@ body {
     color: #4D5AE5;
 }
 
-.footer-logo span {
+.footer-span {
     color: #F4F4FD;
 }
 
@@ -215,7 +225,6 @@ body {
     color: #FFFFFF;
     background: #404BBF;
 }
-
 
 /* ------------------APPLICATIONS--------------- */
 
